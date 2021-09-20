@@ -11,6 +11,7 @@ public class SquareTests {
     public void positiveSquare() {
         assertEquals(4, square.calculate(2));
         assertEquals(9, square.calculate(-3));
+        assertEquals(1, square.calculate(1));
     }
 
     @Test
